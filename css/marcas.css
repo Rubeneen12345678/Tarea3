@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.body {
+  font-family: "Reboto", sans-serif;
+  color: #f5eaea;
+  background-color: #24303c;
+  text-size-adjust: center;
+}
+.header {
+  background-color: #333;
+  height: 200%;
+  width: 100%;
+  border: 4px solid #c5c4b4;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  text-size-adjust: center;
+}
+.nav-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: rgb(161, 148, 148);
+  transition: all 0.4s;
+  color: rgb(15, 15, 12);
+}
+
+.marcas {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.img {
+  display: flex;
+}
+.img1 {
+  display: grid;
+  columns: 1vh 2vh;
+  width: 350px;
+  height: 250px;
+}
+.img2 {
+  width: 350px;
+  height: 250px;
+  margin: 0 95px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+@media only screen and (min-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 18px;
+  }
+}
